@@ -1,23 +1,24 @@
-Exemplo de Aplicações utilizando Firebase -  CRUD Básico com autenticação de usuário
+Example using Firebase -  CRUD
 ======================================
 
-Este repositório tem como objetivo demonstrar a utilização de um Backend as a Service (BaaS) - Firebase para sua utilização em projetos categorizados como Proof of Concept ou MVP.
+This repo is an example to users sees how to uses firebase. It is really interesting to use
+firebase to make POC or MVP, or event real products due to its large set of features and continuons improvements provided by google.
 
-O repositório contém:
- * Projeto iOS (Firebase-iOS)
+Currently, there is only one example:
+ * Project iOS (Firebase-iOS)
 
-Em desenvolvimento estão as implementações em outras plataformas:
- * Projeto Android (Firebase-Android)
- * Projeto Xamarin (Firebase-Xamarin)
- * Projeto Front-end (Javascript)
+Under development:
+ * Project Android (Firebase-Android)
+ * Project Xamarin (Firebase-Xamarin)
+ * Project Front-end (Javascript)
 
 
-Como utilizar
+How to use
 -------------
- 1. criar um projeto no Firebase console com um identificador que será utilizado pelo seu projeto.
- 2. clonar o repositório
- 2. ajustar o identificador do Firebase no projeto
- 3. Executar para verificar o resultado
+ 1. create a project on your Firebase console with a valid identifier and use it on your project.
+ 2. clone this repo
+ 2. put identifier on your project
+ 3. execute the project to see the result
 
- OBS: Neste exemplo, apenas uma entidade é criada para realização do CRUD. A entidade Task é criada, para cada usuário acessar as suas, mediante um cadastro de email e seu login na aplicação.
- OBS2: A entidade task é composta apenas pelo atributo Descrição
+ OBS: There is only one entity on this short example (Task). Each user can access his/her task. There is a authentication procedure to signin and login.
+ OBS2: Task only has a field named description
