@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirebaseCRUDExample</string>
+    <string name="user_hint">Type your user name here</string>
+    <string name="password_hint">Type password here</string>
+</resources>
